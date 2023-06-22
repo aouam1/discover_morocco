@@ -51,16 +51,15 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col space-y-3">
-          <h1 className="font-bold">Acount</h1>
-          <a className="text-xs text-gray-400" href="/">
+        <h1 className=" text-3xl font-bold">Acount</h1>
+
+          <a className=" text-gray-400" href="/">
             Signup
           </a>
-          <a className="text-xs text-gray-400" href="/">
+          <a className="text-gray-400" href="/">
             Login
           </a>
-          <a className="text-xs text-gray-400" href="/">
-            View Trips
-          </a>
+          
           
         </div>
 
@@ -70,7 +69,7 @@ const Footer = () => {
       
 
       <div className="flex flex-col space-y-3">
-      <p className=" text-black-500">
+      <p className=" text-xs text-black-500">
         &copy; {new Date().getFullYear()} Discover MAROCCO. All rights reserved.
       </p>
       </div>

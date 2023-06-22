@@ -27,6 +27,12 @@ export default function Login() {
   return (
   
       <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full">
+         <div class="text-center ">
+                      <img
+                        src="images/base/logo.ico"
+                        class="mx-auto  w-48   rounded-full  "
+                      />
+                    </div>
         <div className=" relative hidden sm:block">
         <img className='w-full h-full object-cover' src ="assets/login.jpg"alt="" />
           
